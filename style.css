@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;  
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+/*Left Side*/
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+}
+.left nav{
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+    height: 8%;
+    width: 85%;
+    align-items: center;
+    gap: 10%;
+}
+.left nav a{
+    height: 100%;
+}
+.left nav img{
+    height: 100%;
+}
+.left nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: #F95700;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.left nav a{
+    text-decoration: none;
+    color: #F95700;
+}
+.left nav ul li{
+    cursor: pointer;
+}
+.left nav ul li:hover{
+    color: #c14502;
+}
+/*Left Section*/
+.left section{
+    align-self: center;
+    width: 85%;
+    height: 95%;
+}
+.left section .motto{
+    height: 53%;
+    align-content: end;
+}
+.left section .motto h1{ 
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.left section .sub{
+    height: 15%;
+    align-content: end;
+}
+.left section .sub p{
+    font-size: 32px;
+}
+.left section .button{
+    height: 15%;
+    align-content: end
+}
+.left section .button button{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #F95700;
+    color: white;
+}
+/*Right Side*/
+.right{
+    height: 100%;
+    width: 35%;
+}
+.right .oval{
+    display: flex;
+    height: 100%;
+    width: 95%;
+    background-color: #F95700;
+    /* border: 5px solid #B74200; */
+    border-radius: 150px;
+    justify-content: center;
+}
+.right .oval img{
+    height: 100%;
+}
