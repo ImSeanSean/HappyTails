@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;  
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+nav{
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+    height: 8%;
+    width: 85%;
+    align-items: center;
+    gap: 10%;
+}
+nav a{
+    height: 100%;
+}
+nav img{
+    height: 100%;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: #F95700;
+    font-weight: bold;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: #F95700;
+}
+nav ul li{
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: #c14502;
+}
+section{
+    height: 75%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.hero{
+    margin: auto;
+    border-radius: 50px;
+    background-color: #F95700;
+    height: 25%;
+    width: 95%;
+}
+.adoption-list{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.adoption-card{
+    background-color: #F95700;
+    width: 35vw;
+    display: flex;
+    padding: 15px;
+    color: white;
+}
+footer{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer .logo{
+    padding: 0px 2vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1vw;
+}
+footer .logo img{
+    height: 10vh;
+}

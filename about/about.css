@@ -7,15 +7,23 @@
 body{
     height: 100vh;
     width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 nav{
-    width: 90%;
-    height: 8%;
     padding: 30px;
     display: flex;
     font-size: 20px;
+    height: 8%;
     width: 85%;
     align-items: center;
+    gap: 10%;
+}
+nav a{
+    height: 100%;
+}
+nav img{
+    height: 100%;
 }
 nav ul{
     width: 100%;
@@ -24,25 +32,38 @@ nav ul{
     color: #F95700;
     font-weight: bold;
     justify-content: space-between;
-    font-size: 20px;
 }
-nav img{
-    height: 80%;
+nav a{
+    text-decoration: none;
+    color: #F95700;
+}
+nav ul li{
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: #c14502;
 }
 section{
-    height: 92%;
+    height: 84%;
     display: flex;
+    gap: 3vw;
 }
 section .left{
     height: 100%;
+    display: flex;
+    align-items: end;
 }
 section .left img{
-    height: 100%;
+    height: 95%;
+}
+section .right{
+    padding-right: 5vw;
+    margin-top: 10vh;
 }
 section .right h1{
     font-size: 50px;
     color: #F95700;
-    margin-bottom: 40px;
+    text-align: center;
 }
 section .right p{
     font-size: 20px;

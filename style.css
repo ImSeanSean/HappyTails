@@ -82,6 +82,11 @@ body{
     border: none;
     background-color: #F95700;
     color: white;
+    cursor: pointer;
+}
+
+.left section .button button:hover{
+    background-color: #c14502;
 }
 /*Right Side*/
 .right{

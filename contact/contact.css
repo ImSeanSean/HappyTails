@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;  
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+nav{
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+    height: 8%;
+    width: 85%;
+    align-items: center;
+    gap: 10%;
+}
+nav a{
+    height: 100%;
+}
+nav img{
+    height: 100%;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: #F95700;
+    font-weight: bold;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: #F95700;
+}
+nav ul li{
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: #c14502;
+}
+section{
+    height: 84%;
+    width: 100%;
+    display: flex;
+}
+section .left{
+    height: 100%;
+    width: 69%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section .left .contact-box{
+    margin: auto;
+    width: 70%;
+    height: 65%;
+    border: 3.5px solid black;
+    border-radius: 15px;
+    color: #F95700;
+    background-color: white;
+    padding: 20px;
+}
+.section .left .contact-box h2{
+    text-align: center;
+}
+section .left .contact-box ul{
+    padding: 30px;
+    list-style: none;
+    display: grid;
+    height: 50%;
+    grid-template-columns: 1fr 1fr;
+}
+section .left .contact-box ul li{
+    font-size: 25px;
+    align-content: center;
+}
+section .left .contact-box ul li i{
+    color: #b54001;
+}
+section .left .contact-box .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section .left .contact-box button{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+section .left .contact-box button:hover{
+    background-color: #3e3e3e;
+    color: white;
+}
+section .right{
+    height: 100%;
+    width: 31%;
+}
+section .right img{
+    height: 101%;
+}
