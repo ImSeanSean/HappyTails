@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;  
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F95700;
+}
+nav{
+    width: 90%;
+    height: 8%;
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+    width: 85%;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: #ffff;
+    font-weight: bold;
+    justify-content: space-between;
+    font-size: 20px;
+}
+nav img{
+    height: 80%;
+}
+section .left{
+    width:70%;
+}
+section .right{
+    width: 30%;
+}
