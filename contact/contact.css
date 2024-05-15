@@ -103,7 +103,66 @@ section .left .contact-box button:hover{
 section .right{
     height: 100%;
     width: 31%;
+    position: relative;
 }
 section .right img{
-    height: 101%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 970px) {
+    section{
+        display: block;
+        border-top: 3px solid #c14502;
+    }
+    section .left{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    section .left .contact-box ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    section .right{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    section .left .contact-box ul li label, i{
+        font-size: 20px;
+    }
+    section .left .contact-box h2{
+        font-size: 40px !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        width: auto;
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    nav a{
+        display: none;
+    }
+    nav ul a{
+        display: block;
+    }
+    section .left .contact-box ul{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    section .left .contact-box ul li label, i{
+        font-size: 20px;
+    }
+    section .left .contact-box h2{
+        font-size: 40px !important;
+    }
+
 }

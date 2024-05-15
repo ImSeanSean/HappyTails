@@ -105,3 +105,67 @@ body{
 .right .oval img{
     height: 100%;
 }
+
+/*Media Query*/
+@media only screen and (max-width: 600px) {
+    body{
+        display: block;
+    }
+    .left{
+        width: 100%;
+    }
+    .left nav{
+        margin: auto;
+        width: 90%;
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .left nav a{
+        display: block
+    }
+    .left nav ul a{
+        display: block;
+    }
+    .left section{
+        border-top: 3px solid #c14502;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .left section .motto{
+        padding: 10px 0px;
+        align-content: center;
+        height: auto;
+    }
+    .left section .motto h1{
+        font-size: 40px;
+    }
+    .left section .sub{
+        padding: 10px 0px;
+        align-content: center;
+        height: auto;
+    }
+    .left section .sub p{
+        font-size: 25px;
+    }
+    .left section .button{
+        padding: 10px 0px;
+        align-content: center;
+        height: auto;
+    }
+    .right{
+        display: none;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .left nav{
+        font-size: 15px;
+    }
+    .left section .motto h1{
+        font-size: 50px;
+    }
+    .left section .sub p{
+        font-size: 25px;
+    }
+}

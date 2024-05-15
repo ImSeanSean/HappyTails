@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Pumi",
+        "age": "3 yrs old",
+        "sex": "Female",
+        "description": "Pumi was rescued by a celebrity supporter of PAWS who spotted the poor dog inside a barangay pound cage while she was shooting a television show. Pumi is shy and gentle but she is easily startled by loud noises. We are looking for someone who understands that overcoming traumatic life experiences is tough and may take time; someone who can assure Pumi that she will always be safe and that she will never be abandoned",
+        "image": "/assets/paws/Pumi/Pumi.jpg",
+        "slides": ["/assets/paws/Pumi/Pumi-1.jpg", "/assets/paws/Pumi/Pumi-2.jpg"],
+        "link": "paw/pumi.html",
+        "paws": "https://paws.org.ph/pumi/"
+    },
+    {
+        "name": "Tiki",
+        "age": "4 yrs old",
+        "sex": "Male",
+        "description": "Thanks to a concerned citizen’s report, Tiki was not killed for “pulutan” (food usually paired with alcoholic drink). Barangay officers foiled plans of construction workers who were about to slaughter him and criminal charges were filed by PAWS. Tiki remained a sweet, loving dog all throughout his ordeal -where he was only given scraps for food and drank rain water from a puddle near his chained area. When he was rescued, he wagged his tail non-stop and was very excited to get into the vehicle that would take him to the PAWS shelter. Tiki holds no grudges and wants to be friends with everyone he meets for the first time. he epitomizes the saying. ” To err is human, to forgive, canine” and reminds us why we should all work together to end the cruel and illegal dog meat trade in our country. ",
+        "image": "/assets/paws/tiki/Tiki.jpg",
+        "slides": ["/assets/paws/Tiki/Tiki-1.jpg", "/assets/paws/Tiki/Tiki-2.jpg"],
+        "link": "paw/tiki.html",
+        "paws": "https://paws.org.ph/tiki/"
+    },
+    {
+        "name": "Lot",
+        "age": "2 yrs old",
+        "sex": "Male",
+        "description": "Lot, a gray tabby Puspin, At a young age he suffered a “lot” because he was rescued in Makati City with injured leg and malnourished. After receiving all the treatment. He is now ready to light up your home. Can you give him a fur-ever home? ",
+        "image": "/assets/paws/Lot/Lot.jpg",
+        "slides": ["/assets/paws/Lot/Lot-1.jpg", "/assets/paws/Lot/Lot-2.jpg"],
+        "link": "paw/Lot.html",
+        "paws": "https://paws.org.ph/Lot/"
+    },
+    {
+        "name": "Mita",
+        "age": "5 yrs old",
+        "sex": "Female",
+        "description": "PAWS rescued Mita at Ermita Center after she had wounds in some parts of her body.  A small dog who is quiet and adorably well-behaved, Mita is an Aspin that shows discreet affection and is perfect for someone who wants a well-rounded, well-behaved companion.",
+        "image": "/assets/paws/Mita/Mita.jpg",
+        "slides": ["/assets/paws/Mita/Mita-1.jpg", "/assets/paws/Mita/Mita-2.jpg"],
+        "link": "paw/Mita.html",
+        "paws": "https://paws.org.ph/Mita/"
+    },
+    {
+        "name": "Magdalena",
+        "age": "2 yrs old",
+        "sex": "Female",
+        "description": "Magdalena or sometimes we called her “Magda” was rescued from Gilmore at Carmel of St. Therese of the Child Jesus along with her 4 babies namely: Josiah, Jonas and Ezra, Ezekiel. She’s small aspin with Bob tail. Magda is friendly and well-behaved dog that fits to your house.",
+        "image": "/assets/paws/Magdalena/Magdalena.jpg",
+        "slides": ["/assets/paws/Magdalena/Magdalena-1.jpg", "/assets/paws/Magdalena/Magdalena-2.jpg"],
+        "link": "paw/Magdalena.html",
+        "paws": "https://paws.org.ph/Magdalena/"
+    },
+    {
+        "name": "Post",
+        "age": "1 yrs old",
+        "sex": "Male",
+        "description": "Just like a Facebook post by a pal, Post is easy to heart or like. He is a smart, trainable 1-yr-old Aspin who is still a bit skittish in unfamiliar surroundings. But just give him some time and love, and Post will show you his true, affectionate self. Post was just recently rescued is a post office and we hope that he doesn’t wait too long for forever. He desperately needs a buddy or a family that will shower him with warmth and assure him that all is well in the world. We know that somewhere out there, there’s a human that can make him smile more often and show him that he has nothing to fear. We hope they get to meet at the PAWS shelter someday!",
+        "image": "/assets/paws/Post/Post.jpg",
+        "slides": ["/assets/paws/Post/Post-1.jpg", "/assets/paws/Post/Post-2.jpg"],
+        "link": "paw/Post.html",
+        "paws": "https://paws.org.ph/Post/"
+    },
+    {
+        "name": "Tiktok",
+        "age": "2 yrs old",
+        "sex": "Male",
+        "description": "Tiktok was rescued in Brgy Pansol in Quezon City.  We know what you’re thinking. Could this cat be trending viral in some reel or video somewhere? Maybe not. But this here cat with the popular name has a heart to make up for his lack of fame.  Blinded in one eye after incurring an injury as a kitten. He will use his cat sense even more if you are feeling ill or depressed. ",
+        "image": "/assets/paws/Tiktok/Tiktok.jpg",
+        "slides": ["/assets/paws/Tiktok/Tiktok-1.jpg", "/assets/paws/Tiktok/Tiktok-2.jpg"],
+        "link": "paw/Tiktok.html",
+        "paws": "https://paws.org.ph/Tiktok/"
+    },
+    {
+        "name": "IG",
+        "age": "2 yrs old",
+        "sex": "Male",
+        "description": "IG is photogenic, We named him after a social media platform. IG was rescued by the caretakers at our shelter after he followed them home one day and he also has eye misalignment that makes him more cute.  it’s your turn to be fortunate to have IG in your family. We’ll be ready with the cat toys; you be ready to play. IG is here, waiting.",
+        "image": "/assets/paws/IG/IG.jpg",
+        "slides": ["/assets/paws/IG/IG-1.jpg", "/assets/paws/IG/IG-2.jpg"],
+        "link": "paw/IG.html",
+        "paws": "https://paws.org.ph/IG/"
+    }
+]

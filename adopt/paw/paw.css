@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;  
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    box-sizing: unset;
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+    height: 8%;
+    width: 85%;
+    align-items: center;
+    gap: 10%;
+}
+
+nav a {
+    height: 100%;
+}
+
+nav img {
+    height: 100%;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: #F95700;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F95700;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #c14502;
+}
+
+/* Information Section */
+section {
+    border-top: 0.5vh solid #c14502;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.information {
+    height: 100%;
+    width: 100%;
+}
+
+.information .title{
+    padding: 0 1vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.information .title i{
+    font-size: 3vw;
+    cursor: pointer;
+    color: rgb(176, 176, 176);
+}
+
+.information .title i:hover{
+    color: gray;
+}
+
+.information h1 {
+    font-size: 3vw;
+}
+
+.information .group {
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+    gap: 1vw;
+    height: 88%;
+}
+
+.group .slideshow {
+    background-color: rgb(172, 172, 172);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.group .slides{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+.group .slides img{
+    height: 100%;
+    display: none;
+    object-fit: cover;
+}
+
+.group .slides img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.group .slideshow button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.17);
+    color: white;
+    border: none;
+    font-size: 2.5vw;
+    cursor: pointer;
+    padding: 1vw;
+}
+
+.slideshow button.prev{
+    left: 0;
+}
+
+.slideshow button.next{
+    right: 0;
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1;}
+}
+
+.group .tab {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    position: relative;
+    overflow: auto;
+}
+
+.group .details {
+    border-radius: 20px;
+    padding: 1.5vw;
+    width: 100%;
+    height: 80%;
+    background-color: #F95700;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.group .details ul{
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.3vw;
+    border-bottom: 3px solid #c14502;
+}
+
+.group .details p{
+    padding: 1vh;
+    overflow-y: auto;
+}
+
+.group .tab button {
+    cursor: pointer;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.tab button:hover {
+    background-color: gainsboro;
+}

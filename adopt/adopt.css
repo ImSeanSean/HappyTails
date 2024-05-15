@@ -4,6 +4,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+/*Body Styling*/
 body{
     height: 100vh;
     width: 100vw;
@@ -11,6 +12,7 @@ body{
     margin: 0;
     overflow: hidden;
 }
+/*Navigation Bar*/
 nav{
     padding: 30px;
     display: flex;
@@ -48,26 +50,124 @@ section{
     height: 75%;
     width: 100%;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
 }
+/*Hero Section*/
 .hero{
     margin: auto;
     border-radius: 50px;
     background-color: #F95700;
-    height: 25%;
+    height: 100%;
     width: 95%;
-}
-.adoption-list{
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-}
-.adoption-card{
-    background-color: #F95700;
-    width: 35vw;
     display: flex;
-    padding: 15px;
+}
+.hero .left{
+    display: grid;
+    padding: 4vw;
     color: white;
 }
+.hero .left h1{
+    font-size: 4.5vw;
+    text-decoration-line: underline;
+}
+.hero .left button{
+    justify-self: center;
+    padding: 1vw;
+    width: 80%;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+.hero .left button:hover{
+    background-color: rgb(237, 237, 237);
+}
+.hero .left p{
+    font-size: 1.2vw;
+}
+.hero .right{
+    padding-right: 30px;
+    height: 100%;
+    width: 50%;
+}
+.hero .right img{
+    height: 100%;
+}
+hr{
+    border: 0.3vh solid #c14502;
+}
+/*Adoption List*/
+.adoption{
+    display: grid;
+    gap: 2vh;
+}
+.title{
+    font-size: 2vw;
+    display: flex;
+    width: 95vw;
+    margin: auto;
+    color: #F95700;
+    justify-content: center;
+}
+.adoption-list{
+    height: 65vh;
+    width: 95vw;
+    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 3vh;
+    margin: auto;
+}
+/*Adoption Card*/
+.adoption-card{
+    justify-self: center;
+    background-color: #F95700;
+    border-radius: 20px;
+    width: 35vw;
+    display: flex;
+    padding: 20px;
+    color: #c14502;
+    gap: 1vw;
+    height: 28vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+.adoption-card .img{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;    
+    height: 90%;
+}
+.adoption-card .img img{
+    border-radius: 10px;
+    height: 100%;
+}
+.adoption-card .details{
+    height: 90%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    text-overflow: ellipsis;
+}
+.adoption-card h2{
+    font-size: 1.5vw;
+}
+.adoption-card p{
+    font-size: 1.1vw;
+}
+.adoption-card .description{
+    height: calc(50%);
+    overflow: hidden;
+}
+.adoption-card .description p{
+    font-size: 0.9vw;
+}
+/*Footer*/
 footer{
     height: 10%;
     width: 100%;

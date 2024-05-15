@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyTails | Adopt</title>
+    <link rel="stylesheet" href="paw.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+</head>
+<body>
+    <nav>
+        <a href="/index.html"><img src="/assets/logo.png"></a>
+        <ul>
+            <a href="/index.html"><li>Home</li></a>
+            <a href="/adopt/adopt.html"><li>Adopt</li></a>
+            <a href="/contact/contact.html"><li>Contact Us</li></a>
+            <a href="/about/about.html"><li>About Us</li></a>
+        </ul>
+    </nav>
+    <section>
+        <div class="information">
+            <div class="title">
+                <i class='bx bxs-left-arrow-square' onclick="goBack()"></i> 
+                <h1 id="pet-name">Paw Name</h1>   
+            </div>
+            <div class="group">
+                <div class="slideshow">
+                    <div class="slides" id="slides">
+                        <!-- Images will be inserted here -->
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094</button>
+                    <button class="next" onclick="nextSlide()">&#10095</button>
+                </div>
+                <div class="tab">
+                    <div class="details">
+                        <h2>About</h2>
+                        <ul id="pet-details">
+                            <!-- Details will be inserted here -->
+                        </ul>
+                        <p id="pet-description">Description</p>
+                    </div>
+                    <button onclick="navigateToPaws()">Adopt</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <script src="paw.js"></script>
+</body>
+</html>
