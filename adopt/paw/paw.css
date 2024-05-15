@@ -202,3 +202,60 @@ section {
 .tab button:hover {
     background-color: gainsboro;
 }
+
+.mobile-button{
+    display: none;
+}
+/*Media Query*/
+@media only screen and (max-width: 800px) {
+    section .information .group{
+        display: flex;
+        flex-direction: column;
+    }
+    section .information .group .slideshow{
+        height: 110vh;
+    }
+    section .information .group .tab{
+        display: block;
+    }
+    section .information .group .tab button{
+        display: none;
+    }
+    section .information .group .tab .details{
+        height: 50vh
+    }
+    .mobile-button{
+        cursor: pointer;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 1.5vw;
+        width: 80%;
+        padding: 15px;
+        display: block;
+        margin: auto;
+    }
+}   
+@media only screen and (max-width: 600px) {
+    nav{
+        width: auto;
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    nav a{
+        display: none;
+    }
+    nav ul a{
+        display: block;
+    }
+    section .left .contact-box ul{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    section .left .contact-box ul li label, i{
+        font-size: 20px;
+    }
+    section .left .contact-box h2{
+        font-size: 40px !important;
+    }
+
+}   

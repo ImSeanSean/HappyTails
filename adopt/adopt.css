@@ -155,17 +155,17 @@ hr{
     text-overflow: ellipsis;
 }
 .adoption-card h2{
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 .adoption-card p{
-    font-size: 1.1vw;
+    font-size: 18px;
 }
 .adoption-card .description{
     height: calc(50%);
     overflow: hidden;
 }
 .adoption-card .description p{
-    font-size: 0.9vw;
+    font-size: 13px;
 }
 /*Footer*/
 footer{
@@ -185,3 +185,81 @@ footer .logo{
 footer .logo img{
     height: 10vh;
 }
+/*Media Query*/
+@media only screen and (max-width: 880px) {
+    section .hero .left{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    section .hero .left p{
+        font-size: 15px;
+    }
+    section .hero .left a{
+        width: 70%;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+    }
+    section .hero .left button{
+        font-size: 15px;
+    }
+    section .hero .right{
+        display: none;
+    }
+    section .adoption .adoption-list{
+        grid-template-columns: 1fr;
+    }
+    section .adoption .adoption-list .adoption-card{
+        width: 80vw;
+    }
+}   
+@media only screen and (max-width: 600px) {
+    nav{
+        width: auto;
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    nav a{
+        display: none;
+    }
+    nav ul a{
+        display: block;
+    }
+    section .left .contact-box ul{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    section .left .contact-box ul li label, i{
+        font-size: 20px;
+    }
+    section .left .contact-box h2{
+        font-size: 40px !important;
+    }
+
+}   
+@media only screen and (max-width: 600px) {
+    section .hero .left p{
+        display: none;
+    }
+    section .hero .left a, button{
+        width: 100%;
+    }
+    section .adoption .adoption-list .adoption-card{
+        display: flex;
+        flex-direction: column;
+    }
+    section .adoption .adoption-list .adoption-card .img{
+        height: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    section .adoption .adoption-list .adoption-card .details{
+        display: flex;
+        justify-content: center;
+    }
+    section .adoption .adoption-list .adoption-card .middle, .description{
+        display: none;
+    }
+}   
