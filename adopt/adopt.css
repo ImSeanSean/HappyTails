@@ -173,6 +173,24 @@ footer{
     width: 100%;
     position: absolute;
     bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+footer .contacts{
+    padding: 0px 2vw;
+    display: flex;
+    gap: 2vw;
+}
+footer .contacts a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+footer .middle{
+    display: flex;
+    justify-content: center;
 }
 footer .logo{
     padding: 0px 2vw;
